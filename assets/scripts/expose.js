@@ -6,7 +6,7 @@ function init() {
   // Change picture and audio
   const hornSelect = document.getElementById("horn-select");
 
-  hornSelect.addEventListener('change', changeStuff);
+  hornSelect.addEventListener("change", changeStuff);
 
   function changeStuff() {
     const img = document.querySelector("img");
@@ -16,5 +16,15 @@ function init() {
   }
 
   // Change volume
-  
+  const volumeInput = document.getElementById("volume");
+
+  volumeInput.addEventListener("change", applyVolume);
+
+  function applyVolume() {
+    var volumeImg = document.querySelectorAll("img")[1];
+    if(event.target.value >= 67) volumeImg.src = "assets/icons/volume-level-3.svg";
+    else if(event.target.value >= 33) volumeImg.src = "assets/icons/volume-level-2.svg";
+    else if(event.target.value >= 1) volumeImg.src = "assets/icons/volume-level-1.svg";
+    else volumeImg.src = "assets/icons/volume-level-0.svg";
+  }
 }
