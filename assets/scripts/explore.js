@@ -1,4 +1,4 @@
-// explore.js
+// explore.js (REFERENCE: https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices)
 
 window.addEventListener('DOMContentLoaded', init);
 
