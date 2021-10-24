@@ -1,6 +1,8 @@
 # Lab 5 - Starter
 
-## Name
+### Name
 Ryan Wright
 
+### Links
 [GitHub Actions Issue Link](https://github.com/RyProgrammer/github-actions-for-ci/issues/7#issue-1034288821)
+[Explore](https://github.com/RyProgrammer/Lab5_Starter/blob/294d8af5420fe2013b93be0860db4910d765e641/explore.html)
